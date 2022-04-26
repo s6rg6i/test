@@ -15,6 +15,14 @@
 .menuButton:hover{
     background: #009641;
 }
+.score {
+    width: 50px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background: #2f312f;
+    text-align: center;
+}
 #game{
     border-collapse: collapse;
     margin: 2% auto 0;
@@ -29,9 +37,15 @@ td.cell{
     border: 1px dotted #eee;
     border-collapse: collapse;
 }
-.food{
+.food {
     background: #00d021;
 }
+
+.obstacle:before{
+    background: white;
+    content: '✖';
+}
+
 .snakeBody{
     background: #e5e5e5;
 }
